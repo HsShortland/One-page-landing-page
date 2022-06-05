@@ -1,0 +1,158 @@
+body{
+    background-color:#000;
+}
+.episodeCard{
+    width:19%;
+    height:750px;
+    border: solid 1px grey;
+    margin:10px 0 10px 0;
+    background-color:#262673;
+    border-radius:10px;
+}
+.flexCenter{
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+img{
+    width:97%;
+    height:21%;
+    margin:5px;
+}
+.flexSpaceAround{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+h2{
+    text-align: center;
+    color:aliceblue;
+    height:10%;
+    text-decoration: underline;
+}
+h1{
+    background-image: url("https://ichef.bbci.co.uk/images/ic/1920x1080/p05rmhbj.jpg");
+    width:auto;
+    height:800px;
+    color:aliceblue;
+    text-align:center;
+    font-size: 80px;
+    margin:0px;
+}
+P{
+    margin:5px;
+    font-size: 20px;
+    color:aliceblue;
+    width:100%;
+    height:100%;
+    text-align:left;
+}
+.intro{
+    background-color:#262673;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color:aliceblue;
+    margin:0;
+}
+nav{
+    width:100%;
+}
+.navBar{
+    overflow: hidden;
+    background-color:#262673 ;
+    height: 40px;
+}
+li{
+    list-style: none;
+    text-align: center;
+    float:left;
+    font-size: 30px;
+}
+ul {
+    margin:0;
+    padding:0;
+}
+.navBar a{
+    display:block;
+    margin-right:10px;
+    text-decoration: none;
+    color:aliceblue;
+    padding-right:3px;
+    padding-bottom:5px;
+}
+.navBar a:hover {
+    background-color: #cc99ff;
+    color: black;
+}
+.navBar a.active {
+    background-color: #ffccff;
+    color: #000;
+}
+.navBar .icon {
+    display: none;
+}
+@media only screen and (max-width: 280px) {
+    .episodeCard{
+        width:100%;
+        height:780px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .intro{
+        width:98%;
+    }
+    p{
+        padding:5px;
+        width:95%;
+    }
+    h2{
+        height:10%;
+    }
+}
+@media only screen and (min-width: 300px) {
+    .episodeCard{
+        width:100%;
+        height:780px;
+    }
+    .intro{
+        width:98%;
+    }
+    p{
+        padding:5px;
+        width:95%;
+    }
+    h2{
+        height:10%;
+    }
+}
+
+@media only screen and (min-width: 539px){
+    .episodeCard{
+        width:48%;
+        height:1000px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    .episodeCard{
+        width:48%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .episodeCard{
+        width:30%;
+        height:950px;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+
+}
+@media only screen and (min-width: 1200px) {
+    .episodeCard{
+        width:18%;
+        height:1010px;
+    }
+}
